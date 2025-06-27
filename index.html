@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Escape the Cave</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+      .clue {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Escape the DOM Cave!</h1>
+    <div class="clue" id="clue1">Clue 1: Click the button to see the next!</div>
+    <button id="btn1">Next Clue</button>
+    <div class="clue hidden" id="clue2">Clue 2: You're halfway there!</div>
+    <button class="hidden" id="btn2">Get clue 3</button>
+    <div class="clue hidden" id="clue3">Clue 3: Escape code is "JS4Life"</div>
+    <h2 class="hidden" id="success">🎉 You escaped the cave!</h2>
+    <script src="main.js"></script>
+  </body>
+</html>
