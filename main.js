@@ -7,7 +7,7 @@ function findMax(arr) {
   }
   return max;
 }
-console.log(findMax([4, 7, 2, 9, 11, 12, 40]));
+console.log("max is:", findMax([4, 7, 2, 9, 11, 12, 40]));
 
 function reverseStrings(str) {
   let temp = "";
@@ -16,7 +16,7 @@ function reverseStrings(str) {
   }
   return temp;
 }
-console.log(reverseStrings("hello"));
+console.log("reversed word is", reverseStrings("hello"));
 function reverseString(str) {
   const str2 = str.split("");
   let x;
@@ -27,7 +27,7 @@ function reverseString(str) {
   }
   return str2.join("");
 }
-console.log(reverseString("hello world"));
+console.log("methode 2", reverseString("hello world"));
 
 function countVowels(str) {
   const vowels = ["a", "e", "i", "o", "u", "y"];
@@ -39,7 +39,7 @@ function countVowels(str) {
   }
   return count;
 }
-console.log(countVowels("apple"));
+console.log("count is ", countVowels("apple"));
 
 function greet(name) {
   if (!name) {
